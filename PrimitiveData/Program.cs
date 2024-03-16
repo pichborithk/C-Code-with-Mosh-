@@ -1,5 +1,6 @@
-﻿Console.WriteLine("C# have 4 Integral Numbers type:");
-Console.WriteLine("Integer is the DEFUALT type for Integral Numbers\n");
+﻿Console.WriteLine(@"C# have 4 Integral Numbers type:
+Integer is the DEFUALT type for Integral Numbers
+");
 
 byte byteMin = byte.MinValue;
 byte byteMax = byte.MaxValue;
@@ -18,8 +19,9 @@ long longMin = long.MinValue;
 long longMax = long.MaxValue;
 Console.WriteLine($"Long = 8 bytes, has value range: {longMin} to {longMax}\n");
 
-Console.WriteLine("C# have 3 Real Numbers type:");
-Console.WriteLine("Double is the DEFUALT type for Real Numbers\n");
+Console.WriteLine(@"C# have 3 Real Numbers type:
+Double is the DEFUALT type for Real Numbers
+");
 
 float floatMin = float.MinValue;
 float floatMax = float.MaxValue;
