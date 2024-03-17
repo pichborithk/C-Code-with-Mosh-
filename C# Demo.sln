@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimitiveData", "PrimitiveD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{14F09386-9F16-4070-B496-2E3FC999A927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{69FCDE6B-4BC8-4BD7-B637-2C2736C99FF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{69FCDE6B-4BC8-4BD7-B637-2C2736C99FF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{AFAF4D3E-1C89-45F8-B4E6-283D1EC01BBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{AFAF4D3E-1C89-45F8-B4E6-283D1EC01BBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{77ED4EEC-A50A-426F-AD89-C04066F01F8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{77ED4EEC-A50A-426F-AD89-C04066F01F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{68969312-8FD8-448D-9029-DFCCD5183DF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{77ED4EEC-A50A-426F-AD89-C04066F01F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77ED4EEC-A50A-426F-AD89-C04066F01F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77ED4EEC-A50A-426F-AD89-C04066F01F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68969312-8FD8-448D-9029-DFCCD5183DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68969312-8FD8-448D-9029-DFCCD5183DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68969312-8FD8-448D-9029-DFCCD5183DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68969312-8FD8-448D-9029-DFCCD5183DF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
