@@ -20,6 +20,7 @@
 
             var method3 = "Express";
             Console.WriteLine((int) Enum.Parse(typeof(ShippingMethod), method3));
+            Console.WriteLine((ShippingMethod) Enum.Parse(typeof(ShippingMethod), method3));
         }
     }
 }
