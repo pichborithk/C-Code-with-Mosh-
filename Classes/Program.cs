@@ -8,8 +8,8 @@ john.lastName = "Smith";
 
 Person john = new()
 {
-    firstName = "John",
-    lastName = "Smith"
+    FirstName = "John",
+    LastName = "Smith"
 };
 
 john.Introduce();
