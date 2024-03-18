@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Indexers;
+
+var cookie = new HttpCookie();
+cookie["name"] = "John";
+Console.WriteLine(cookie["name"]);
+
