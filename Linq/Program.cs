@@ -1,4 +1,4 @@
-﻿using Linq;
+using Linq;
 
 var books = new BookRepository().GetBooks();
 /* 
@@ -63,3 +63,4 @@ var anotherBooks = books.Skip(2).Take(2);
 var maxPrice = books.Max(book => book.Price);
 var average = books.Average(book => book.Price);
 var total = books.Sum(book => book.Price);
+
