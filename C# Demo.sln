@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{A7832FC3-FA85-4007-839B-47D28CC223AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamdaExpressions", "LamdaExpressions\LamdaExpressions.csproj", "{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdaExpressions", "LamdaExpressions\LamdaExpressions.csproj", "{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{A554C452-849F-4FF2-BC39-C8D72CCB2927}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
