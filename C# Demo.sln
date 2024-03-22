@@ -21,11 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilder", "StringBuil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemIO", "SystemIO\SystemIO.csproj", "{1A68B54E-EE60-4CB2-8F2B-5C1F04D70CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{D9C852A4-17AE-4075-919F-487F1AB40FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{D9C852A4-17AE-4075-919F-487F1AB40FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifier", "AccessModifier\AccessModifier.csproj", "{020C894D-52FE-4358-8E32-22DDFC66B8D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifier", "AccessModifier\AccessModifier.csproj", "{020C894D-52FE-4358-8E32-22DDFC66B8D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{BFAFC559-22F9-43F7-93CB-6D8484CAA157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexers.csproj", "{BFAFC559-22F9-43F7-93CB-6D8484CAA157}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{A7832FC3-FA85-4007-839B-47D28CC223AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdaExpressions", "LamdaExpressions\LamdaExpressions.csproj", "{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{A554C452-849F-4FF2-BC39-C8D72CCB2927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethods", "ExtentionMethods\ExtentionMethods.csproj", "{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{4F6F2177-348A-4CED-922B-88378FE43081}"
 EndProject
@@ -87,6 +97,26 @@ Global
 		{4F6F2177-348A-4CED-922B-88378FE43081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6F2177-348A-4CED-922B-88378FE43081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6F2177-348A-4CED-922B-88378FE43081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7832FC3-FA85-4007-839B-47D28CC223AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7832FC3-FA85-4007-839B-47D28CC223AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7832FC3-FA85-4007-839B-47D28CC223AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7832FC3-FA85-4007-839B-47D28CC223AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACF0D5C-A02E-4138-AF2A-A53668A1F73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3190EA4-AA6B-47D0-B139-0BACB42FCA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A554C452-849F-4FF2-BC39-C8D72CCB2927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
