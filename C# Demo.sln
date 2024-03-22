@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "Event
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethods", "ExtentionMethods\ExtentionMethods.csproj", "{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{4F6F2177-348A-4CED-922B-88378FE43081}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{91DC7486-CBD3-4734-9952-CE1622D1135D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +117,10 @@ Global
 		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2575E5D-BB7C-4207-9E94-7D6D34F2287E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DC7486-CBD3-4734-9952-CE1622D1135D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DC7486-CBD3-4734-9952-CE1622D1135D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DC7486-CBD3-4734-9952-CE1622D1135D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DC7486-CBD3-4734-9952-CE1622D1135D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
