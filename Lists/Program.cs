@@ -10,7 +10,15 @@ numbers.Add(4);
 
 // numbers.AddRange(new int[3] { 5, 6, 7 });
 numbers.AddRange([5, 6, 7]);
+
+// Insert an element at a specific index
+numbers.Insert(2, 25); // Insert 25 at index 2
+
+// Remove an element by value
 numbers.Remove(1);
+
+// Remove an element at a specific index
+numbers.RemoveAt(0); // Remove the element at index 0
 
 Console.WriteLine(string.Join(", ", numbers));
 
